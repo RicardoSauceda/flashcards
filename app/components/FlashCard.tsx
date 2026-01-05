@@ -38,7 +38,7 @@ const Flashcard = ({ question, answer, category }: { question: string, answer: s
 
                 {/* Lado Trasero (Respuesta + Autoevaluación) */}
                 <div
-                    className="absolute inset-0 backface-hidden bg-gradient-to-br from-neutral-900 to-black dark:from-neutral-100 dark:to-white border border-neutral-800 dark:border-neutral-200 rounded-2xl shadow-xl flex flex-col p-8 items-center justify-center text-center"
+                    className="absolute inset-0 backface-hidden bg-linear-to-br from-neutral-900 to-black dark:from-neutral-100 dark:to-white border border-neutral-800 dark:border-neutral-200 rounded-2xl shadow-xl flex flex-col p-8 items-center justify-center text-center"
                     style={{ transform: 'rotateY(180deg)' }}
                 >
                     <div className="absolute top-6 left-6">
